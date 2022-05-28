@@ -1,0 +1,6 @@
+
+
+a.txt: b.txt	
+	 cat b.txt>a.txt
+
+	

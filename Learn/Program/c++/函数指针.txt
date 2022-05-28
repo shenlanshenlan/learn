@@ -1,0 +1,8 @@
+typedef int(*p)(int);  定义一个函数指针类型
+int(*p)(int);               定义一个函数指针变量
+
+
+    Test s ;
+    int (Test::*p)(string); //成员函数指针
+    p=&Test::test;
+    (s.*p)("ss");

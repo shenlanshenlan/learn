@@ -1,0 +1,2 @@
+ vscode esp capsLock set
+"keyboard.dispatch":"keyCode"

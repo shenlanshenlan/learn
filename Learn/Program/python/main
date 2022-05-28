@@ -1,0 +1,15 @@
+#!/home/ki/python/bin/python3.5
+
+#md : python 基础语法操作
+ 
+# 模块 倒入
+#import module                #倒入模块  k
+#print(module.Name)          #使用模块  k 的 变量 Name
+#from  module  import sex   #倒入模块  k 的变量 sex
+#print(sex)                #使用变量sex（这里可省略模块名）
+
+#import syntax
+#import obj
+#import  _yield
+
+#import GUI   #user gui

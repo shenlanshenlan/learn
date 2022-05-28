@@ -1,0 +1,12 @@
+#!/bin/bash
+
+clear
+
+echo "1    one"
+echo "2    two"
+echo "3    three"
+read  i
+case $i in
+1)echo "a";;
+2)echo "b";;
+esac

@@ -1,0 +1,5 @@
+定义类型的别名
+typedef int a;   //定义 int 的别名
+typedef int * sa; //定义int 的指针
+typedef int(*p)(int); //定义函数指针类型
+int(*p)(int); //定义函数指针变量

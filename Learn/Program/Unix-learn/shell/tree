@@ -1,0 +1,7 @@
+#!/bin/bash
+ 
+ $root = "mama"
+ $left = "xingke"
+ $right = "yuxinji"
+  echo "                           "  root 
+  echo "                    " left"                       " right 

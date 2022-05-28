@@ -1,0 +1,13 @@
+#!/bin/bash
+read name
+if [ -f "$name" ]
+then
+ echo "ok"
+ as -gstabs -o Oname $name
+echo $?
+ ld -o   $1 Oname
+echo $?
+else 
+echo "filename is rong"
+
+fi

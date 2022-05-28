@@ -1,0 +1,5 @@
+
+ff(){
+echo "this is function 1"
+}
+
