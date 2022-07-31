@@ -305,7 +305,7 @@ shared_ptr<int> sp2 = sp1;
 weak_ptr<int> wp = sp1; //  wp  指向了 sp1 的堆内存
 shared_ptr<int> sp = wp.lock();  // wp.lock() 返回 shared_ptr 的一个对象
 cout<<*sp<<endl;                    // 输出 sp 值 也就是 sp1 的值 22
- up1.reset() ;//释放
+up1.reset() ;//释放
 
  智能指针
  pint fun()
